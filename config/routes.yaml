@@ -1,0 +1,16 @@
+index:
+    path: /
+    controller: App\Controller\DefaultController::indextest
+
+addtest:
+    path: /add/{modeltest}/{pricetest}
+    controller: App\Controller\CarsController::addcar
+
+
+listtest:
+    path: /list
+    controller: App\Controller\CarsController::listcar
+
+gettest:
+    path: /{inputid}
+    controller: App\Controller\CarsController::getcarbyID
